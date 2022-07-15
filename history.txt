@@ -1,0 +1,42 @@
+ 46  sudo yum install vim -y
+   47  sudo apt-get install vim -y
+   48  cd git-test/
+   49  vim index.html
+   50  git status
+   51  git diff
+   52  git add .
+   53  git status
+   54  git commit -am "Adding New Version - V1"
+   55  git config --global user.email "anurag_b@live.com"
+   56  git config --global user.name "anayab"
+   57  git log
+   58  git push
+   59  ssh-keygen
+   60  cat ~/.ssh/id_rsa.pub
+   61  git push
+   62  vim .git/config
+   63  git push
+   64  cat ~/.ssh/known_hosts
+   65  vi ~/.ssh/known_hosts
+   66  git push
+   67  cd ..
+   68  ls -lah
+   69  rm -rf git-test/
+   70  git clone git@github.com:anayab/git-test.git
+   71  cd git-test/
+   72  ls
+   73  vi index.html
+   74  git add . && git commit -am "Version 1"
+   75  git push
+   76  git status
+   77  vim index.html
+   78  git add .
+   79  git status
+   80  vim index.html
+   81  git add . && git commit -am "Version 2"
+   82  git push
+   83  git logs
+   84  git log
+   85  git log --oneline
+   86  history
+
